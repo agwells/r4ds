@@ -12,3 +12,13 @@ The site is built using [bookdown package](https://github.com/rstudio/bookdown).
 To create the site, you also need:
 
 * [pandoc](http://johnmacfarlane.net/pandoc/)
+
+# Compiling to a Kindle eBook
+
+This book contains HTML widgets, so you'll need to install webshot and PhantomJS
+to convert those to still images. See https://bookdown.org/yihui/bookdown/html-widgets.html
+
+```{r}
+install.packages("webshot")
+webshot::install_phantomjs()
+```
