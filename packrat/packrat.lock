@@ -464,10 +464,9 @@ Requires: Rcpp, rlang
 
 Package: tidyr
 Source: CRAN
-Version: 0.7.1
-Hash: faa86dddf66de38a5af3db4e6f49c467
-Requires: Rcpp, dplyr, glue, magrittr, purrr, rlang, stringi, tibble,
-    tidyselect
+Version: 0.6.1
+Hash: f96c01a325cb35ab5bdf0e27b87aa8de
+Requires: Rcpp, dplyr, lazyeval, magrittr, stringi, tibble
 
 Package: tidyselect
 Source: CRAN
