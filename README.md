@@ -39,7 +39,7 @@ the installed phantomjs version:
 ## Compiling
 
 ```{r}
-bookdown::render_book("index.rmd", output_format="bookdown:epub")
+bookdown::render_book("index.rmd", output_format="bookdown::epub_book")
 # And then either:
 bookdown::kindlgen(...)
 # ... or ...
